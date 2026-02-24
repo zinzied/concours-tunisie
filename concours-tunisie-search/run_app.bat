@@ -1,0 +1,9 @@
+@echo off
+cd /d "%~dp0"
+echo Starting Concours Tunisie Search...
+start http://localhost:3000
+echo Installing dependencies (if needed)...
+call npm install
+echo Launching development server...
+call npm run dev
+pause
